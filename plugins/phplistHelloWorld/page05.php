@@ -15,7 +15,7 @@ $plugin = $GLOBALS[ 'plugins' ][ $_GET[ 'pi' ] ];
 
 <ul>
     <li><?= PageLink2( 'main', 'Simple link to the main plugin page' ); ?></li>
-    <li><?= PageLink2( 'page4', 'Simple link with parameters', 'start=100' ); ?></li>
+    <li><?= PageLink2( 'page04', 'Simple link with parameters', 'start=100' ); ?></li>
     <li><?= PageLink2( 'configure', 'Simple link to outside the plugin', '', true ); ?></li>
     <li><?= PageLinkButton( 'main', 'A sample link button' ); ?></li>
 </ul>

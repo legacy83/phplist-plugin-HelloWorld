@@ -6,7 +6,7 @@ $plugin = $GLOBALS[ 'plugins' ][ $_GET[ 'pi' ] ];
 $start = isset( $_GET[ 'start' ] ) ? $_GET[ 'start' ] : 0;
 
 $table = new WebblerListing( 'ID' );
-$table->usePanel( simplePaging( 'page4', $start, 200, 15 ) );
+$table->usePanel( simplePaging( 'page04', $start, 200, 15 ) );
 foreach ( range( $start + 1, $start + 15 ) as $index ) {
     $table->addElement( $index );
     $table->addColumn( $index, 'Name', 'Nulla tristique commodo' );

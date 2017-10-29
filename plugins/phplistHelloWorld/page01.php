@@ -14,7 +14,7 @@ if ( isset( $_POST[ 'display-hello-message' ] ) ) {
 
     $mensagemEstaOk = strlen( trim( $_POST[ 'message' ] ) ) !== 0;
     if ( !$mensagemEstaOk ) {
-        Info( 'Sua mensagem está em branco. Por isso vamos exibir uma mensagem padrão.' );
+        Info( 'Sua mensagem está em branco. Por isso vamos exibir uma mensagem padrão.', true );
     }
 
     if ( $mensagemEstaOk ) {

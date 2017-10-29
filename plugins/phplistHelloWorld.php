@@ -17,11 +17,11 @@ class phplistHelloWorld extends phplistPlugin
 
     public $pageTitles = array(
         'main' => 'Hello World',
-        'page1' => 'Hello World - Page With Form',
-        'page2' => 'Hello World - Using The UIPanel',
-        'page3' => 'Hello World - WebblerListing',
-        'page4' => 'Hello World - Simple Paging',
-        'page5' => 'Hello World - Using Links',
+        'page01' => 'Hello World - Page With Form',
+        'page02' => 'Hello World - Using The UIPanel',
+        'page03' => 'Hello World - WebblerListing',
+        'page04' => 'Hello World - Simple Paging',
+        'page05' => 'Hello World - Using Links',
     );
 
     public $topMenuLinks = array(
