@@ -18,7 +18,7 @@ class phplistHelloWorld extends phplistPlugin
     public $pageTitles = array(
         'main' => 'Hello World',
         'page1' => 'Hello World - Page With Form',
-        'page2' => 'Hello World - Page 2',
+        'page2' => 'Hello World - Using The UIPanel',
     );
 
     public $topMenuLinks = array(
