@@ -22,6 +22,7 @@ class phplistHelloWorld extends phplistPlugin
         'page03' => 'Hello World - WebblerListing',
         'page04' => 'Hello World - Simple Paging',
         'page05' => 'Hello World - Using Links',
+        'page06' => 'Hello World - Using JavaScript',
     );
 
     public $topMenuLinks = array(
