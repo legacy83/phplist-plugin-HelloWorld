@@ -4,12 +4,16 @@ defined( 'PHPLISTINIT' ) || die;
 $plugin = $GLOBALS[ 'plugins' ][ $_GET[ 'pi' ] ];
 
 $table = new WebblerListing( 'ID' );
-foreach ( range( 1, 20 ) as $index ) {
+foreach ( range( 1, 15 ) as $index ) {
     $table->addElement( $index );
     $table->addColumn( $index, 'Name', 'Nulla tristique commodo' );
     $table->addColumn( $index, 'Building', 'Donec finibus, odio sit amet mollis tristique', '#' );
     $table->addColumn( $index, 'Height in Feet', 200 );
 }
+
+$needle = '<div class="header"><h2>ID</h2></div>';
+$replace = '<div class="header"><h2>The Heights of Various Buildings</h2></div>';
+$tableDisplay = str_replace( $needle, $replace, $table->display() );
 
 ?>
 
@@ -21,4 +25,4 @@ foreach ( range( 1, 20 ) as $index ) {
     Fusce aliquet sit amet ligula a mollis. Fusce vulputate (<a href="#">lobortis tortor</a>)
 </p>
 
-<?= $table->display(); ?>
+<?= $tableDisplay; ?>
