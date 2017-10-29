@@ -21,10 +21,11 @@ class phplistHelloWorld extends phplistPlugin
         'page2' => 'Hello World - Using The UIPanel',
         'page3' => 'Hello World - WebblerListing',
         'page4' => 'Hello World - Simple Paging',
+        'page5' => 'Hello World - Using Links',
     );
 
     public $topMenuLinks = array(
-        'main' => array( 'category' => 'config' ),
+        'main' => array( 'category' => 'system' ),
     );
 
     function __construct()
