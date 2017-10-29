@@ -19,6 +19,7 @@ class phplistHelloWorld extends phplistPlugin
         'main' => 'Hello World',
         'page1' => 'Hello World - Page With Form',
         'page2' => 'Hello World - Using The UIPanel',
+        'page3' => 'Hello World - WebblerListing',
     );
 
     public $topMenuLinks = array(
