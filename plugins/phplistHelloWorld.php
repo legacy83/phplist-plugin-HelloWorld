@@ -24,6 +24,7 @@ class phplistHelloWorld extends phplistPlugin
         'page05' => 'Hello World - Using Links',
         'page06' => 'Hello World - Using JavaScript',
         'page07' => 'Hello World - Building Ajax',
+        'page08' => 'Hello World - phpList Ajax Way',
     );
 
     public $topMenuLinks = array(
